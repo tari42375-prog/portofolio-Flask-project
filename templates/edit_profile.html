@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+{% block head %}
+<title>Edit Profil</title>
+{% endblock %}
+{% block body %}
+<h2>Edit Profil</h2>
+<form method="POST" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label class="form-label">Nama</label>
+        <input type="text" name="name" class="form-control" value="{{ profil[3] }}" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Bio</label>
+        <textarea name="bio" class="form-control" required>{{ profil[4] }}</textarea>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Foto Profil</label><br>
+        {% if profil[5] %}
+            <img src="{{ url_for('static', filename=profil[5]) }}" width="120" class="mb-2 rounded">
+        {% endif %}
+        <input type="file" name="photo" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
+    <a href="{{url_for('home')}}" class="btn btn-scondary">Batal</a>
+</form>
+{% endblock %}
