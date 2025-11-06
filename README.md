@@ -20,7 +20,7 @@ website ini dirancang agar memudahkan pengguna dalam menampilkan dan memperbarui
    http://127.0.0.1:5000
 
 
-##Screenshot
+## Screenshot
 ### Halaman Publik
 ![Halaman Publik](screenshots/halaman_publik.png)
 
