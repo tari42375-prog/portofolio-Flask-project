@@ -28,4 +28,4 @@ website ini dirancang agar memudahkan pengguna dalam menampilkan dan memperbarui
 ![Halaman Admin](screenshots/halaman_admin.png)
 
 ### Halaman Login
-![Halaman Login](screenshots/login.png)
+![Halaman Login](screenshots/Login.png)
