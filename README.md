@@ -24,5 +24,6 @@ website ini dirancang agar memudahkan pengguna dalam menampilkan dan memperbarui
 ### Halaman Publik
 ![Halaman Publik](screenshots/halaman_publik.png)
 
-### Halaman Admin
+### Halaman Admin (login)
 ![Halaman Admin](screenshots/halaman_admin.png)
+![Halaman Admin](screenshots/login.png)
